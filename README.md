@@ -2,10 +2,10 @@
 This little project demonstrates the usefulness of HTTP's OPTIONS method. The only resources are quotations.  Anyone may browse the index of them, view a specific one or create a new one. Only someone with the admin password can change or delete existing quotations.
 
 ## Install
-`rvm 1.9.3` (or rbenv equivalent for that)
-`bundle install`
-`rake db:setup`
-`rails s`
+1. `rvm 1.9.3` (or rbenv equivalent for that)
+2. `bundle install`
+3. `rake db:setup`
+4. `rails s`
 
 ## Try some CURL
 -v means verbose. It will display the entire request and response instead of just the response body.
