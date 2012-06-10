@@ -16,7 +16,7 @@ This little project demonstrates the usefulness of HTTP's OPTIONS method. The on
 curl -v -X OPTIONS http://localhost:3000/quotations.json
 ```
 
-The important things to notice with this response is the `Allow` header saying you have read and write permissions here. As stated above, anyone may create a new quotation view POST. Additionally, the response body contains some minimal instruction for creating a new quotation. It tells you all the parameters you need to know in order to POST.
+The important things to notice with this response is the `Allow` header saying you have read and write permissions here. As stated above, anyone may create a new quotation via POST. Additionally, the response body contains some minimal instructions for creating a new quotation. It tells you all the parameters you need to know in order to POST.
 
 ```bash
 curl -v -X OPTIONS http://localhost:3000/quotations/:id.json
