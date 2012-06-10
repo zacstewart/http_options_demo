@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<blockquote>
+  <p><%= @quotation.body %></p>
+  <footer>― <%= @quotation.author %></footer>
+</blockquote>
+
+<%= link_to 'Edit', edit_quotation_path(@quotation) %> |
+<%= link_to 'Back', quotations_path %>
